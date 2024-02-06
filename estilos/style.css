@@ -24,6 +24,7 @@ header{
 header > h1{    
     text-align: center;
     padding: 90px;
+    color:white;
 }
 
 nav{
@@ -44,13 +45,12 @@ header > nav > a:hover{
 }
 article{
     
-    max-width: 700px;
-    min-width: 500px;
-    margin:auto;
     background-color: white;
     padding: 15px;
     border-bottom-left-radius: 20px;
     border-bottom-right-radius: 20px;
+    
+   
     
 }
 
