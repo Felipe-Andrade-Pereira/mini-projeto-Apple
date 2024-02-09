@@ -52,21 +52,20 @@ article{
     border-bottom-right-radius: 20px;
     
 }
+main{
+    width: 750px;
+    margin: auto;
+    position: relative;
+    padding-bottom: 22%;
+}
 
-div#video{
-    background-color:black;
-    margin: 0px -20px 30px -20px;
-    padding:20px;
-    padding-bottom: 58%;
-    position:relative;
-}
 div#video > iframe{
-    position:absolute;
-    top: 5%;
-    left:5%;
-    width: 90%;
-    height:90%;
+    position: absolute;
+    width:100%;
+    border-radius:25px;
+    
 }
+
 footer{
     text-align: center;
     background-color: rgba(92, 91, 91, 0.952);
