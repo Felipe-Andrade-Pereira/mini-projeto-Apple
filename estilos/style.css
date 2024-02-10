@@ -54,16 +54,12 @@ article{
 }
 main{
     width: 100vw;
-    margin: auto;
     position: relative;
     padding-bottom: 22%;
 }
-
 div#video > iframe{
     position: absolute;
     width:100%;
-    border-radius:25px;
-    
 }
 
 footer{
@@ -71,7 +67,7 @@ footer{
     background-color: rgba(92, 91, 91, 0.952);
     padding:5px;
     color:white;
-    margin-top: 15px;
+    margin-top: 205px;   
 }
 footer > p{
     text-align: center;
