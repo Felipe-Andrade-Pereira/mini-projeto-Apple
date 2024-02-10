@@ -21,14 +21,25 @@ header{
     width:100vw;
 }
 
+img#logo{
+    width:70px;
+    height: 70px;
+    display: block;
+    padding-top:90px;
+    margin:auto;
+}
+
 header > h1{    
     text-align: center;
     padding: 90px;
+    margin-top:-30px;
+    padding-bottom: -20px;
     color:white;
 }
 
 nav{
     padding-bottom: 10px;
+   
 }
 
 header > nav > a{
@@ -49,16 +60,14 @@ article{
     border-bottom-left-radius: 20px;
     border-bottom-right-radius: 20px;
     padding:10px;
-    
-    
 }
 main{
     width: 100vw;
-    position: relative;
-    padding-bottom: 22%;
+    
+    
 }
 div#video > iframe{
-    position: absolute;
+    
     width:100%;
 }
 
@@ -67,8 +76,17 @@ footer{
     background-color: rgba(92, 91, 91, 0.952);
     padding:5px;
     color:white;
-    margin-top: 205px;   
+    margin-top: -5px;
+    
+   
 }
 footer > p{
     text-align: center;
+}
+footer a{
+    color:black;
+}
+
+footer a:hover{
+    color:white;
 }
