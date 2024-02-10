@@ -1,0 +1,32 @@
+@charset "UTF-8";
+@media screen and (min-width:768px){
+    article{
+        width: 700px;
+        margin:auto;
+    }
+    h2{
+        background-image: linear-gradient(to right, rgb(252, 248, 248), rgb(150, 148, 148));
+        padding: 7px;
+        margin-left: -10px;
+        margin-right: -10px;
+        margin-bottom: 15px;
+    }
+    h2#subtitulo{
+        margin-top: -10px;
+    }
+
+    main{
+        width: 700px;
+        padding:0 10px 10px 10px;
+        position: relative;
+        padding-bottom: 22%;
+        margin:auto;
+    }
+    div#video > iframe{
+        position: absolute;
+        width:100%;
+    }
+    footer{
+        margin-top: 14px;
+    }
+}
